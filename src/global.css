@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Banner styles */
+  .banner {
+    background-image: url(https://imgs.search.brave.com/ukIDkCz_9PyWVBvaJcZpfzu-YFxF3-NSauk1HcvBFdI/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9hL2E2L0xv/Z29fTklLRS5zdmcv/NTEycHgtTG9nb19O/SUtFLnN2Zy5wbmc);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    text-align: center;
+    padding: 17px;
+    color: #fff;
+  }
+  
+  .banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .banner .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .banner .btn:hover {
+    background-color: #000;
+  }
